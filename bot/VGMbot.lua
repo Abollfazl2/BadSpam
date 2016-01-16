@@ -220,21 +220,11 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {142806212,178618864,0,tonumber(our_id)},--Sudo users
+    sudo_users = {164440453,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[The King Manager
-
-EN
-Manager Your Groups
-Admin Of Bot
-@SH_R2721 [ Developer& manager]
-
-FA
-مدیر گروه های شما
-ادمین 
-@SH_R2721 [سازنده ومدیر]
+    about_text = [[
 ]],
     help_text = [[
 Commands list :
